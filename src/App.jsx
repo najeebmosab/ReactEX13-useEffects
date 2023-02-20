@@ -5,14 +5,14 @@ import {BoxsSlid} from "./components/BoxSlid"
 import './App.css'
 import {ChangingBox} from "./components/ChangingboxColor";
 import {SpinerComponent} from "./components/Spiner/SpinerComponent";
+import {FormComponent} from "./components/Form/FormComponent";
 
 function App() {
-  const spiner=["spinner","sk-cube-grid","loading"];
-  const rnd  = Math.floor(Math.random() * 3);
 
   // const [count, setCount] = useState()
   // console.log(count);
   return (<>
+  <FormComponent></FormComponent>
    <Color />
    <ChangingBox ></ChangingBox>
    <SpinerComponent></SpinerComponent>
